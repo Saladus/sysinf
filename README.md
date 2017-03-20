@@ -1,4 +1,4 @@
-# sysin
+# sysinf
 Bash skript süsteemiinfo kuvamiseks,
 Kuvatakse kasutajanimi, masinanimi, operatsioonisüsteem, kerneli versioon ja viimase käivituse aeg.
 
