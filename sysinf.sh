@@ -9,7 +9,7 @@ viimane_boot=`uptime -s`
 if [[ $os == Arch\ Linux ]]
 	then pakette=`pacman  -Q | wc -l`
 elif [[ $os == Ubuntu ]] 
-	then pakette=`apt-cache pkgnames | wc -l`
+	then pakette=`dpkg --get-selections | grep -v uninstall | wc -l`
 fi
 
 ul=`tput smul`
