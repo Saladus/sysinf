@@ -23,3 +23,7 @@ echo ${b}${sinine}"OS:"${ilma} $os
 echo ${b}${sinine}"Kernel:"${ilma} $kernel
 echo ${b}${sinine}"Tarkvara:"${ilma} $pakette
 echo ${b}${sinine}"Ärkvel alates:"${ilma} $viimane_boot
+
+if [[ $1 == -s ]]
+	then scrot -cd 3
+fi
