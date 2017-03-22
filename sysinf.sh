@@ -21,6 +21,7 @@ ilma=`tput sgr0`
 echo ${vi}${ul}${b}${sinine}$kasutaja${ilma}${ul}"@"${b}${sinine}$raal${ilma}
 echo ${b}${sinine}"OS:"${ilma} $os
 echo ${b}${sinine}"Kernel:"${ilma} $kernel
+echo ${b}${sinine}"Shell:"${ilma} $SHELL
 echo ${b}${sinine}"Tarkvara:"${ilma} $pakette
 echo ${b}${sinine}"Ärkvel alates:"${ilma} $viimane_boot
 
